@@ -5,7 +5,7 @@ services:
     volumes:
       - postgres-db:/var/lib/postgresql/data
     environment:
-      - POSTGRES_DB=medusa_db
+      - POSTGRES_DB=opengrowdb
       - POSTGRES_USER=opengrow
       - POSTGRES_PASSWORD=opengrow
     ports:
